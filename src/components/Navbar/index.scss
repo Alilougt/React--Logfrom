@@ -1,0 +1,22 @@
+.navbar-list {
+  background-color: #bc417e;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  ul {
+    padding: 20px;
+  }
+  li {
+    margin-right: 20px;
+  }
+  li a {
+    color: white;
+    border-bottom: 3px solid #fff;
+    padding: 4px 0;
+    &:hover {
+      color: #f0b7d3;
+    }
+  }
+}
