@@ -1,7 +1,5 @@
 export interface IuserData {
-  username: string;
-  password: string;
-  phone: string;
+  [key: string]: string;
 }
 
 export interface IFormInputList {
